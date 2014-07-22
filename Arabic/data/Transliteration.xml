@@ -138,11 +138,11 @@ is en2ar) or from Arabic to English (when function property is ar2en).
       <replace>ف</replace>
     </pair>
     <pair>
-      <search>ge</search>
+      <search>j</search>
       <replace>ج</replace>
     </pair>
     <pair>
-      <search>gi</search>
+      <search>ji</search>
       <replace>جي</replace>
     </pair>
     <pair>
@@ -154,7 +154,7 @@ is en2ar) or from Arabic to English (when function property is ar2en).
       <replace>ف</replace>
     </pair>
     <pair>
-      <search>gn</search>
+      <search>jn</search>
       <replace>جن</replace>
     </pair>
     <pair>
@@ -210,6 +210,14 @@ is en2ar) or from Arabic to English (when function property is ar2en).
       <replace>ش</replace>
     </pair>
     <pair>
+      <search>^</search>
+      <replace>ص</replace>
+    </pair>
+    <pair>
+      <search>&</search>
+      <replace>ص</replace>
+    </pair>
+    <pair>
       <search>ss</search>
       <replace>س</replace>
     </pair>
@@ -257,6 +265,17 @@ is en2ar) or from Arabic to English (when function property is ar2en).
       <search>h</search>
       <replace>ه</replace>
     </pair>
+    <pair>
+      <search>$</search>
+      <replace>ح</replace>
+    </pair>
+    
+    <pair>
+      <search>%</search>
+      <replace>ح</replace>
+    </pair>
+
+    
     <pair>
       <search>i</search>
       <replace>ي</replace>
@@ -380,6 +399,42 @@ is en2ar) or from Arabic to English (when function property is ar2en).
       <search>/^أ/</search>
       <replace>a</replace>
     </pair>
+    
+<!-- --
+Adde characters
+<!-- -->
+
+    <pair>
+      <search>]</search>
+      <replace>ض</replace>
+    </pair>
+
+    <pair>
+      <search>}</search>
+      <replace>ض</replace>
+    </pair>
+    
+    <pair>
+      <search>@</search>
+      <replace>ط</replace>
+    </pair>
+
+    <pair>
+      <search>#</search>
+      <replace>ط</replace>
+    </pair>
+
+    <pair>
+      <search>!</search>
+      <replace>ظ</replace>
+    </pair>
+
+
+<!-- --
+Adde characters ends
+<!-- -->
+
+    
     <pair>
       <search>/^آ/</search>
       <replace>aa</replace>
@@ -470,11 +525,11 @@ is en2ar) or from Arabic to English (when function property is ar2en).
     </pair>
     <pair>
       <search>ضه</search>
-      <replace>d'h</replace>
+      <replace>]'h</replace>
     </pair>
     <pair>
       <search>ضة</search>
-      <replace>d'h</replace>
+      <replace>]'h</replace>
     </pair>
     <pair>
       <search>سه</search>
@@ -558,7 +613,7 @@ is en2ar) or from Arabic to English (when function property is ar2en).
     </pair>
     <pair>
       <search>ح</search>
-      <replace>h</replace>
+      <replace>$</replace>
     </pair>
     <pair>
       <search>خ</search>
@@ -590,11 +645,11 @@ is en2ar) or from Arabic to English (when function property is ar2en).
     </pair>
     <pair>
       <search>ص</search>
-      <replace>s</replace>
+      <replace>^</replace>
     </pair>
     <pair>
       <search>ض</search>
-      <replace>d</replace>
+      <replace>]</replace>
     </pair>
     <pair>
       <search>ط</search>
@@ -729,7 +784,7 @@ is en2ar) or from Arabic to English (when function property is ar2en).
     </pair>
     <pair>
       <search>ض</search>
-      <replace>ḑ</replace>
+      <replace>]</replace>
     </pair>
     <pair>
       <search>ط</search>
@@ -877,7 +932,7 @@ is en2ar) or from Arabic to English (when function property is ar2en).
     </pair>
     <pair>
       <search>ض</search>
-      <replace>ḍ</replace>
+      <replace>]</replace>
     </pair>
     <pair>
       <search>ة</search>
