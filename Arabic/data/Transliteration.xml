@@ -10,30 +10,10 @@ is en2ar) or from Arabic to English (when function property is ar2en).
 
 <data file="Transliteration">
   <preg_replace function="en2ar">
-  
-  <!--
-  
-      Added chracters
-  -->
-  
-    <pair>
+  <pair>
       <search>[</search>
       <replace>ا</replace>
     </pair>
-    <pair>
-      <search>^</search>
-      <replace>ص</replace>
-    </pair>
-    <pair>
-      <search>&</search>
-      <replace>ص</replace>
-    </pair>
-  
-    <!--
-  
-      Added chracters list ends
-  -->
-  
     <pair>
       <search>/^au/</search>
       <replace>ا</replace>
